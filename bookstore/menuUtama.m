@@ -26,15 +26,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
-                                                        NSForegroundColorAttributeName : [UIColor yellowColor]
-                                                        } forState:UIControlStateSelected];
+    //[[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
+    //                                                    NSForegroundColorAttributeName : [UIColor colorWithRed:211.0f/255.0f green:236.0f/255.0f blue:246.0f/255.0f alpha:1]
+   //                                                     } forState:UIControlStateSelected];
     
     
     
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
-                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:.2 green:.5 blue:.5 alpha:1]
-                                                        } forState:UIControlStateNormal];
+    //[[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
+     //                                                   NSForegroundColorAttributeName : [UIColor colorWithRed:91.0f/255.0f green:170.0f/255.0f blue:222.0f/255.0f alpha:1]
+     //                                                   } forState:UIControlStateNormal];
+    
+    //[[UITabBar appearance] setSelectedImageTintColor:[UIColor colorWithRed:211.0f/255.0f green:236.0f/255.0f blue:246.0f/255.0f alpha:1]];
+    
+    //[self.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"ic_book.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"ic_book_alt.png"]];
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -52,12 +52,11 @@
         <scene sceneID="Hgc-7x-hnK">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="CAT-U5-H69" customClass="menuUtama" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="RB8-nY-pBH">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.12549020350000001" green="0.94117653369999998" blue="0.66666668650000005" alpha="1" colorSpace="deviceRGB"/>
                         <color key="barTintColor" red="0.23921570181846619" green="0.54901963472366333" blue="0.75294125080108643" alpha="1" colorSpace="deviceRGB"/>
                     </tabBar>
