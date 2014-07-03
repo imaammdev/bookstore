@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CAT-U5-H69">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller - Bookstore-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="homeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bookstore" id="qnF-Wb-jAj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="-284"/>
+        </scene>
+        <!--Navigasi - Ebook-->
+        <scene sceneID="QQk-D9-RCm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YWq-tY-0G6" customClass="navigasi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ebook" image="ic_book" id="Qig-Cb-DUv">
+                        <inset key="imageInsets" minX="23" minY="21" maxX="23" maxY="23"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eTZ-N4-lj7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="0.82745105028152466" green="0.92549026012420654" blue="0.9647059440612793" alpha="1" colorSpace="deviceRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Wuc-dD-mUc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X90-Vc-tt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="-289"/>
+        </scene>
+        <!--Menu Utama-->
+        <scene sceneID="Hgc-7x-hnK">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="CAT-U5-H69" customClass="menuUtama" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="RB8-nY-pBH">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.12549020350000001" green="0.94117653369999998" blue="0.66666668650000005" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="barTintColor" red="0.23921570181846619" green="0.54901963472366333" blue="0.75294125080108643" alpha="1" colorSpace="deviceRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="YWq-tY-0G6" kind="relationship" relationship="viewControllers" id="Xid-Cv-6jS"/>
+                        <segue destination="qyo-Oj-AeY" kind="relationship" relationship="viewControllers" id="8cu-dw-21a"/>
+                        <segue destination="yBa-T6-pZw" kind="relationship" relationship="viewControllers" id="ft8-sw-ETV"/>
+                        <segue destination="uiz-5R-SNp" kind="relationship" relationship="viewControllers" id="giX-Fp-q2O"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tuh-D2-86u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="467"/>
+        </scene>
+        <!--Home View Controller - Bookstore-->
+        <scene sceneID="M9p-pz-qXH">
+            <objects>
+                <viewController id="rAM-hd-ehe" customClass="homeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OmS-dg-Sk9"/>
+                        <viewControllerLayoutGuide type="bottom" id="T3Z-0S-z4e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gdc-hd-Yf7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bookstore" id="DIt-cU-ybD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSh-qK-SX7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="399"/>
+        </scene>
+        <!--Navigasi - Magazine-->
+        <scene sceneID="HrT-sQ-0Dh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qyo-Oj-AeY" customClass="navigasi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Magazine" image="ic_magazine" id="B0Y-xT-dOu">
+                        <inset key="imageInsets" minX="23" minY="21" maxX="23" maxY="23"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yq0-xu-u0m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="0.82745105029999999" green="0.92549026010000002" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rAM-hd-ehe" kind="relationship" relationship="rootViewController" id="zGG-9o-HLj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iEJ-ec-cVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="399"/>
+        </scene>
+        <!--Home View Controller - Bookstore-->
+        <scene sceneID="pRw-nt-gz9">
+            <objects>
+                <viewController id="dRD-9G-Ljp" customClass="homeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZHb-Hs-whZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ey1-QB-K36"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zB6-TM-SHY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bookstore" id="njn-83-vZk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P8K-W5-8Q8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="1109"/>
+        </scene>
+        <!--Navigasi - Newspaper-->
+        <scene sceneID="S1X-fw-B1x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yBa-T6-pZw" customClass="navigasi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Newspaper" image="ic_newspaper" id="pXb-l7-Wui">
+                        <inset key="imageInsets" minX="23" minY="21" maxX="23" maxY="23"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tGB-Q6-iFI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="0.82745105029999999" green="0.92549026010000002" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dRD-9G-Ljp" kind="relationship" relationship="rootViewController" id="fLX-kV-0kj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zlr-DZ-NMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="1103"/>
+        </scene>
+        <!--Home View Controller - Bookstore-->
+        <scene sceneID="aaA-YQ-dax">
+            <objects>
+                <viewController id="7T4-cM-AhV" customClass="homeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EGp-FZ-uQI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rvb-Pe-xbA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HrT-Bc-YFb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bookstore" id="Ojc-pw-jvm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n5t-Dt-Klw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="966" y="1841"/>
+        </scene>
+        <!--Navigasi - Wish List-->
+        <scene sceneID="DOQ-Mr-HPJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uiz-5R-SNp" customClass="navigasi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Wish List" image="ic_mark" id="xct-ai-yjs">
+                        <inset key="imageInsets" minX="23" minY="21" maxX="23" maxY="23"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yW9-Wo-Ga5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="0.82745105029999999" green="0.92549026010000002" blue="0.96470594409999999" alpha="1" colorSpace="deviceRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7T4-cM-AhV" kind="relationship" relationship="rootViewController" id="ByX-OH-51j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QjN-pT-Rw4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="1829"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_book" width="72" height="72"/>
+        <image name="ic_magazine" width="72" height="72"/>
+        <image name="ic_mark" width="72" height="72"/>
+        <image name="ic_newspaper" width="72" height="72"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

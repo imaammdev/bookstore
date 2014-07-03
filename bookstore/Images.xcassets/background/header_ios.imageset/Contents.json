@@ -1,0 +1,31 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "fill",
+          "width" : 1,
+          "height" : 65
+        },
+        "capInsets" : {
+          "bottom" : 4,
+          "top" : 4,
+          "right" : 2,
+          "left" : 2
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "header_ios.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
