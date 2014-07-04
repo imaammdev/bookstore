@@ -62,8 +62,8 @@
                         <color key="barTintColor" red="0.23921570181846619" green="0.54901963472366333" blue="0.75294125080108643" alpha="1" colorSpace="deviceRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="YWq-tY-0G6" kind="relationship" relationship="viewControllers" id="Xid-Cv-6jS"/>
                         <segue destination="qyo-Oj-AeY" kind="relationship" relationship="viewControllers" id="8cu-dw-21a"/>
+                        <segue destination="YWq-tY-0G6" kind="relationship" relationship="viewControllers" id="Xid-Cv-6jS"/>
                         <segue destination="yBa-T6-pZw" kind="relationship" relationship="viewControllers" id="ft8-sw-ETV"/>
                         <segue destination="uiz-5R-SNp" kind="relationship" relationship="viewControllers" id="giX-Fp-q2O"/>
                     </connections>

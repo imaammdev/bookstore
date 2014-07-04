@@ -31,8 +31,6 @@
     
     self.navigationItem.leftBarButtonItem = listMenu;
     self.navigationItem.rightBarButtonItem = libraryButton;
-    
-
 
 
 
