@@ -79,25 +79,6 @@
             </objects>
             <point key="canvasLocation" x="-10" y="467"/>
         </scene>
-        <!--Home View Controller - Bookstore-->
-        <scene sceneID="M9p-pz-qXH">
-            <objects>
-                <viewController id="rAM-hd-ehe" customClass="homeViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OmS-dg-Sk9"/>
-                        <viewControllerLayoutGuide type="bottom" id="T3Z-0S-z4e"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Gdc-hd-Yf7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Bookstore" id="DIt-cU-ybD"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aSh-qK-SX7" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="950" y="399"/>
-        </scene>
         <!--Navigasi - Magazine-->
         <scene sceneID="HrT-sQ-0Dh">
             <objects>
@@ -117,12 +98,47 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="rAM-hd-ehe" kind="relationship" relationship="rootViewController" id="zGG-9o-HLj"/>
+                        <segue destination="aob-kz-3es" kind="relationship" relationship="rootViewController" id="KKT-Ac-dtc"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iEJ-ec-cVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="513" y="399"/>
+        </scene>
+        <!--Magazine View - Bookstore-->
+        <scene sceneID="fsH-wF-UZ5">
+            <objects>
+                <collectionViewController autoresizesArchivedViewToFullSize="NO" id="aob-kz-3es" customClass="magazineView" sceneMemberID="viewController">
+                    <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="cab-re-2mY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xbo-Kr-baF">
+                            <size key="itemSize" width="90" height="199"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="coloredCell" id="n5t-YN-Kan">
+                                <rect key="frame" x="0.0" y="64" width="90" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="90" height="199"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="aob-kz-3es" id="rtG-jQ-kj7"/>
+                            <outlet property="delegate" destination="aob-kz-3es" id="fzZ-0m-1tS"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Bookstore" id="7cz-vL-LKC"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N9u-J9-Zqf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="407"/>
         </scene>
         <!--Home View Controller - Bookstore-->
         <scene sceneID="pRw-nt-gz9">

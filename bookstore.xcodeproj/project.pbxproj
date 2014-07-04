@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11043C4A19653A0500BBF737 /* menuUtama.m in Sources */ = {isa = PBXBuildFile; fileRef = 11043C4919653A0500BBF737 /* menuUtama.m */; };
+		1151351319668DD4009B659C /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1151351219668DD4009B659C /* magazineView.m */; };
 		116D68FD1964EB52001E359A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FC1964EB52001E359A /* Foundation.framework */; };
 		116D68FF1964EB52001E359A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FE1964EB52001E359A /* CoreGraphics.framework */; };
 		116D69011964EB52001E359A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D69001964EB52001E359A /* UIKit.framework */; };
@@ -24,7 +25,6 @@
 		116D69291964EB52001E359A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116D69271964EB52001E359A /* InfoPlist.strings */; };
 		116D692B1964EB52001E359A /* bookstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D692A1964EB52001E359A /* bookstoreTests.m */; };
 		116D69361964F016001E359A /* navigasi.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D69351964F016001E359A /* navigasi.m */; };
-		116D694219651A15001E359A /* magazineViewList.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D694119651A15001E359A /* magazineViewList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,8 @@
 /* Begin PBXFileReference section */
 		11043C4819653A0500BBF737 /* menuUtama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuUtama.h; sourceTree = "<group>"; };
 		11043C4919653A0500BBF737 /* menuUtama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuUtama.m; sourceTree = "<group>"; };
+		1151351119668DD4009B659C /* magazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineView.h; sourceTree = "<group>"; };
+		1151351219668DD4009B659C /* magazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineView.m; sourceTree = "<group>"; };
 		116D68F91964EB52001E359A /* bookstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116D68FC1964EB52001E359A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116D68FE1964EB52001E359A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +64,6 @@
 		116D692A1964EB52001E359A /* bookstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookstoreTests.m; sourceTree = "<group>"; };
 		116D69341964F016001E359A /* navigasi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigasi.h; sourceTree = "<group>"; };
 		116D69351964F016001E359A /* navigasi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigasi.m; sourceTree = "<group>"; };
-		116D694019651A15001E359A /* magazineViewList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineViewList.h; sourceTree = "<group>"; };
-		116D694119651A15001E359A /* magazineViewList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineViewList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 			children = (
 				116D69141964EB52001E359A /* homeViewController.h */,
 				116D69151964EB52001E359A /* homeViewController.m */,
-				116D694019651A15001E359A /* magazineViewList.h */,
-				116D694119651A15001E359A /* magazineViewList.m */,
+				1151351119668DD4009B659C /* magazineView.h */,
+				1151351219668DD4009B659C /* magazineView.m */,
 			);
 			name = funcPages;
 			sourceTree = "<group>";
@@ -134,6 +134,7 @@
 		116D68FB1964EB52001E359A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				116D69251964EB52001E359A /* Supporting Files */,
 				116D68FC1964EB52001E359A /* Foundation.framework */,
 				116D68FE1964EB52001E359A /* CoreGraphics.framework */,
 				116D69001964EB52001E359A /* UIKit.framework */,
@@ -172,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				116D692A1964EB52001E359A /* bookstoreTests.m */,
-				116D69251964EB52001E359A /* Supporting Files */,
 			);
 			path = bookstoreTests;
 			sourceTree = "<group>";
@@ -184,6 +184,7 @@
 				116D69271964EB52001E359A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = bookstoreTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,8 +289,8 @@
 				116D69091964EB52001E359A /* main.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
-				116D694219651A15001E359A /* magazineViewList.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
+				1151351319668DD4009B659C /* magazineView.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

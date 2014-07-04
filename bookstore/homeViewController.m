@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
     
     
     UIImageView *iconMenu = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_menu_alt.png"]];
@@ -32,14 +32,8 @@
     self.navigationItem.leftBarButtonItem = listMenu;
     self.navigationItem.rightBarButtonItem = libraryButton;
     
-
-
-
-
-
-    
-
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -47,9 +41,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)tombol:(id)sender {
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
-- (IBAction)coba:(id)sender {
-}
 @end
