@@ -24,7 +24,6 @@
 		116D69291964EB52001E359A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116D69271964EB52001E359A /* InfoPlist.strings */; };
 		116D692B1964EB52001E359A /* bookstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D692A1964EB52001E359A /* bookstoreTests.m */; };
 		116D69361964F016001E359A /* navigasi.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D69351964F016001E359A /* navigasi.m */; };
-		116D694219651A15001E359A /* magazineViewList.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D694119651A15001E359A /* magazineViewList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +61,6 @@
 		116D692A1964EB52001E359A /* bookstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookstoreTests.m; sourceTree = "<group>"; };
 		116D69341964F016001E359A /* navigasi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigasi.h; sourceTree = "<group>"; };
 		116D69351964F016001E359A /* navigasi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigasi.m; sourceTree = "<group>"; };
-		116D694019651A15001E359A /* magazineViewList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineViewList.h; sourceTree = "<group>"; };
-		116D694119651A15001E359A /* magazineViewList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineViewList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +87,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11043C4B1966750F00BBF737 /* funcMenu */ = {
+			isa = PBXGroup;
+			children = (
+				116D69341964F016001E359A /* navigasi.h */,
+				116D69351964F016001E359A /* navigasi.m */,
+				11043C4819653A0500BBF737 /* menuUtama.h */,
+				11043C4919653A0500BBF737 /* menuUtama.m */,
+			);
+			name = funcMenu;
+			sourceTree = "<group>";
+		};
+		11043C4C1966759700BBF737 /* funcpages */ = {
+			isa = PBXGroup;
+			children = (
+				116D69141964EB52001E359A /* homeViewController.h */,
+				116D69151964EB52001E359A /* homeViewController.m */,
+			);
+			name = funcpages;
+			sourceTree = "<group>";
+		};
 		116D68F01964EB52001E359A = {
 			isa = PBXGroup;
 			children = (
@@ -126,16 +143,10 @@
 				116D690B1964EB52001E359A /* homeAppDelegate.h */,
 				116D690C1964EB52001E359A /* homeAppDelegate.m */,
 				116D690E1964EB52001E359A /* Main_iPhone.storyboard */,
-				11043C4819653A0500BBF737 /* menuUtama.h */,
-				11043C4919653A0500BBF737 /* menuUtama.m */,
-				116D694019651A15001E359A /* magazineViewList.h */,
-				116D694119651A15001E359A /* magazineViewList.m */,
 				116D69111964EB52001E359A /* Main_iPad.storyboard */,
-				116D69141964EB52001E359A /* homeViewController.h */,
-				116D69151964EB52001E359A /* homeViewController.m */,
-				116D69341964F016001E359A /* navigasi.h */,
-				116D69351964F016001E359A /* navigasi.m */,
 				116D69171964EB52001E359A /* Images.xcassets */,
+				11043C4C1966759700BBF737 /* funcpages */,
+				11043C4B1966750F00BBF737 /* funcMenu */,
 				116D69031964EB52001E359A /* Supporting Files */,
 			);
 			path = bookstore;
@@ -272,7 +283,6 @@
 				116D69091964EB52001E359A /* main.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
-				116D694219651A15001E359A /* magazineViewList.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);
