@@ -29,9 +29,6 @@
 {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"coloredCell" forIndexPath:indexPath];
     
-    cell.backgroundColor = (self.cellColor) ? [UIColor redColor] : [UIColor blueColor];
-    self.cellColor = !self.cellColor;
-    
     return cell;
 }
 
