@@ -90,6 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1151350C1966782A009B659C /* funcPages */ = {
+			isa = PBXGroup;
+			children = (
+				116D69141964EB52001E359A /* homeViewController.h */,
+				116D69151964EB52001E359A /* homeViewController.m */,
+				116D694019651A15001E359A /* magazineViewList.h */,
+				116D694119651A15001E359A /* magazineViewList.m */,
+			);
+			name = funcPages;
+			sourceTree = "<group>";
+		};
+		1151350D1966784A009B659C /* funcMenu */ = {
+			isa = PBXGroup;
+			children = (
+				116D69341964F016001E359A /* navigasi.h */,
+				116D69351964F016001E359A /* navigasi.m */,
+				11043C4819653A0500BBF737 /* menuUtama.h */,
+				11043C4919653A0500BBF737 /* menuUtama.m */,
+			);
+			name = funcMenu;
+			sourceTree = "<group>";
+		};
 		116D68F01964EB52001E359A = {
 			isa = PBXGroup;
 			children = (
@@ -126,16 +148,10 @@
 				116D690B1964EB52001E359A /* homeAppDelegate.h */,
 				116D690C1964EB52001E359A /* homeAppDelegate.m */,
 				116D690E1964EB52001E359A /* Main_iPhone.storyboard */,
-				11043C4819653A0500BBF737 /* menuUtama.h */,
-				11043C4919653A0500BBF737 /* menuUtama.m */,
-				116D694019651A15001E359A /* magazineViewList.h */,
-				116D694119651A15001E359A /* magazineViewList.m */,
 				116D69111964EB52001E359A /* Main_iPad.storyboard */,
-				116D69141964EB52001E359A /* homeViewController.h */,
-				116D69151964EB52001E359A /* homeViewController.m */,
-				116D69341964F016001E359A /* navigasi.h */,
-				116D69351964F016001E359A /* navigasi.m */,
 				116D69171964EB52001E359A /* Images.xcassets */,
+				1151350C1966782A009B659C /* funcPages */,
+				1151350D1966784A009B659C /* funcMenu */,
 				116D69031964EB52001E359A /* Supporting Files */,
 			);
 			path = bookstore;
