@@ -30,11 +30,14 @@
             </objects>
             <point key="canvasLocation" x="950" y="-284"/>
         </scene>
-        <!--Navigasi - Item-->
+        <!--Navigasi - Ebook-->
         <scene sceneID="QQk-D9-RCm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YWq-tY-0G6" customClass="navigasi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="IkY-DA-JMX"/>
+                    <tabBarItem key="tabBarItem" title="Ebook" image="ic_book" id="Qig-Cb-DUv">
+                        <inset key="imageInsets" minX="26" minY="26" maxX="27" maxY="25"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-5"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="eTZ-N4-lj7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -95,7 +98,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="aob-kz-3es" kind="relationship" relationship="rootViewController" id="JRE-Ac-ikg"/>
+                        <segue destination="aob-kz-3es" kind="relationship" relationship="rootViewController" id="KKT-Ac-dtc"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iEJ-ec-cVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -186,26 +189,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N9u-J9-Zqf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950" y="399"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="d8M-gQ-IaT">
-            <objects>
-                <viewController id="HQs-wv-CgJ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="iJv-lk-91U"/>
-                        <viewControllerLayoutGuide type="bottom" id="7aY-aB-ymp"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cqn-zC-SZm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="xkH-C4-XXL"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fiX-qO-NNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1328" y="399"/>
+            <point key="canvasLocation" x="950" y="412"/>
         </scene>
         <!--Home View Controller - Bookstore-->
         <scene sceneID="pRw-nt-gz9">
@@ -301,6 +285,7 @@
     <resources>
         <image name="body_ios" width="25" height="146"/>
         <image name="grid" width="15" height="15"/>
+        <image name="ic_book" width="72" height="72"/>
         <image name="ic_magazine" width="72" height="72"/>
         <image name="ic_mark" width="72" height="72"/>
         <image name="ic_menu_item" width="72" height="72"/>

@@ -23,21 +23,15 @@
     UIImageView *iconMenu = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_menu_alt.png"]];
     iconMenu.frame = CGRectMake(1, 0, 20, 20);
     
-    UIImageView *iconLibrary = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_folder_alt.png" ]];
+    UIImageView *iconLibrary = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_folder_alt.png"]];
     iconLibrary.frame = CGRectMake(1, 0, 25, 25);
     
     UIBarButtonItem *listMenu = [[UIBarButtonItem alloc] initWithCustomView:iconMenu];
     UIBarButtonItem *libraryButton = [[UIBarButtonItem alloc] initWithCustomView:iconLibrary];
     
-
-    
     self.navigationItem.leftBarButtonItem = listMenu;
     self.navigationItem.rightBarButtonItem = libraryButton;
     
-}
-
--(void)home:(UIBarButtonItem *)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 

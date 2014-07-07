@@ -30,7 +30,6 @@
     self.navigationItem.leftBarButtonItem = listMenu;
     self.navigationItem.rightBarButtonItem = libraryButton;
     
-    
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
