@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		11043C4A19653A0500BBF737 /* menuUtama.m in Sources */ = {isa = PBXBuildFile; fileRef = 11043C4919653A0500BBF737 /* menuUtama.m */; };
-		11336A67196A88F4001A2982 /* gridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11336A66196A88F4001A2982 /* gridCell.m */; };
 		1151351319668DD4009B659C /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1151351219668DD4009B659C /* magazineView.m */; };
 		116D68FD1964EB52001E359A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FC1964EB52001E359A /* Foundation.framework */; };
 		116D68FF1964EB52001E359A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FE1964EB52001E359A /* CoreGraphics.framework */; };
@@ -41,8 +40,6 @@
 /* Begin PBXFileReference section */
 		11043C4819653A0500BBF737 /* menuUtama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuUtama.h; sourceTree = "<group>"; };
 		11043C4919653A0500BBF737 /* menuUtama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuUtama.m; sourceTree = "<group>"; };
-		11336A65196A88F4001A2982 /* gridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridCell.h; sourceTree = "<group>"; };
-		11336A66196A88F4001A2982 /* gridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gridCell.m; sourceTree = "<group>"; };
 		1151351119668DD4009B659C /* magazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineView.h; sourceTree = "<group>"; };
 		1151351219668DD4009B659C /* magazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineView.m; sourceTree = "<group>"; };
 		116D68F91964EB52001E359A /* bookstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,8 +97,6 @@
 				116D69151964EB52001E359A /* homeViewController.m */,
 				1151351119668DD4009B659C /* magazineView.h */,
 				1151351219668DD4009B659C /* magazineView.m */,
-				11336A65196A88F4001A2982 /* gridCell.h */,
-				11336A66196A88F4001A2982 /* gridCell.m */,
 			);
 			name = funcPages;
 			sourceTree = "<group>";
@@ -293,7 +288,6 @@
 			files = (
 				116D69091964EB52001E359A /* main.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
-				11336A67196A88F4001A2982 /* gridCell.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
 				1151351319668DD4009B659C /* magazineView.m in Sources */,

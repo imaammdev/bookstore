@@ -7,7 +7,6 @@
 //
 
 #import "magazineView.h"
-#import "gridCell.h"
 
 @interface magazineView ()
 
@@ -15,7 +14,6 @@
 @end
 
 @implementation magazineView
-
 
 - (void)viewDidLoad
 {
@@ -32,8 +30,6 @@
     self.navigationItem.leftBarButtonItem = listMenu;
     self.navigationItem.rightBarButtonItem = libraryButton;
     
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"coloredCell"];
-    
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
@@ -41,9 +37,9 @@
     return 12;
 }
 
-- (UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    gridCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"coloredCell" forIndexPath:indexPath];
-    cell.judul = [NSString stringWithString:@"hahahaha"];
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"coloredCell" forIndexPath:indexPath];
     
     return cell;
 }
