@@ -134,7 +134,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="210"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IPj-3A-5V0">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jodoh_prbw" translatesAutoresizingMaskIntoConstraints="NO" id="IPj-3A-5V0">
                                             <rect key="frame" x="0.0" y="3" width="100" height="125"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -290,6 +290,7 @@
         <image name="ic_mark" width="72" height="72"/>
         <image name="ic_menu_item" width="72" height="72"/>
         <image name="ic_newspaper" width="72" height="72"/>
+        <image name="jodoh_prbw" width="768" height="1024"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
