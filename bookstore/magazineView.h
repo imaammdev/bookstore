@@ -10,4 +10,6 @@
 
 @interface magazineView : UICollectionViewController
 
+
+
 @end

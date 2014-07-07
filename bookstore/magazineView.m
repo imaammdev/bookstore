@@ -15,6 +15,7 @@
 
 @implementation magazineView
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -40,6 +41,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"coloredCell" forIndexPath:indexPath];
+    
     
     return cell;
 }
