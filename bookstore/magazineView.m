@@ -18,11 +18,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIImageView *iconMenu = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_menu_alt.png"]];
+    iconMenu.frame = CGRectMake(1, 0, 20, 20);
+    
+    UIImageView *iconLibrary = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_folder_alt.png"]];
+    iconLibrary.frame = CGRectMake(1, 0, 25, 25);
+    
+    UIBarButtonItem *listMenu = [[UIBarButtonItem alloc] initWithCustomView:iconMenu];
+    UIBarButtonItem *libraryButton = [[UIBarButtonItem alloc] initWithCustomView:iconLibrary];
+    
+    self.navigationItem.leftBarButtonItem = listMenu;
+    self.navigationItem.rightBarButtonItem = libraryButton;
+    
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 50;
+    return 12;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
