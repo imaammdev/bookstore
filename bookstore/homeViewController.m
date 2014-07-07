@@ -29,18 +29,11 @@
     UIBarButtonItem *listMenu = [[UIBarButtonItem alloc] initWithCustomView:iconMenu];
     UIBarButtonItem *libraryButton = [[UIBarButtonItem alloc] initWithCustomView:iconLibrary];
     
-   
-    
     self.navigationItem.leftBarButtonItem = listMenu;
     self.navigationItem.rightBarButtonItem = libraryButton;
     
 }
 
--(void)buttonPressed:(id) sender{
-    
-    NSLog(@"Entered");
-    
-}
 
 - (void)didReceiveMemoryWarning
 {
