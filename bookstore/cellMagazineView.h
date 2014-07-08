@@ -1,5 +1,5 @@
 //
-//  magazineView.h
+//  cellMagazineView.h
 //  bookstore
 //
 //  Created by Herman Tolle on 7/8/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface magazineView : UIViewController
+@interface cellMagazineView : UICollectionViewCell
 
 @end
