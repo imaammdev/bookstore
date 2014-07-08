@@ -15,6 +15,7 @@
 
 @implementation magazineView
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
