@@ -2,12 +2,12 @@
 //  magazineView.h
 //  bookstore
 //
-//  Created by Herman Tolle on 7/8/14.
+//  Created by Herman Tolle on 7/4/14.
 //  Copyright (c) 2014 Lab. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface magazineView : UIViewController
+@interface magazineView : UICollectionViewController
 
 @end

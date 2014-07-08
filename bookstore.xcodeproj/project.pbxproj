@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11043C4A19653A0500BBF737 /* menuUtama.m in Sources */ = {isa = PBXBuildFile; fileRef = 11043C4919653A0500BBF737 /* menuUtama.m */; };
-		1143102A196BA73300929D8C /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11431029196BA73300929D8C /* magazineView.m */; };
-		1143102D196BA82200929D8C /* cellMagazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1143102C196BA82200929D8C /* cellMagazineView.m */; };
+		1151351319668DD4009B659C /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1151351219668DD4009B659C /* magazineView.m */; };
 		116D68FD1964EB52001E359A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FC1964EB52001E359A /* Foundation.framework */; };
 		116D68FF1964EB52001E359A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FE1964EB52001E359A /* CoreGraphics.framework */; };
 		116D69011964EB52001E359A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D69001964EB52001E359A /* UIKit.framework */; };
@@ -41,10 +40,8 @@
 /* Begin PBXFileReference section */
 		11043C4819653A0500BBF737 /* menuUtama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuUtama.h; sourceTree = "<group>"; };
 		11043C4919653A0500BBF737 /* menuUtama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuUtama.m; sourceTree = "<group>"; };
-		11431028196BA73300929D8C /* magazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineView.h; sourceTree = "<group>"; };
-		11431029196BA73300929D8C /* magazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineView.m; sourceTree = "<group>"; };
-		1143102B196BA82200929D8C /* cellMagazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMagazineView.h; sourceTree = "<group>"; };
-		1143102C196BA82200929D8C /* cellMagazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMagazineView.m; sourceTree = "<group>"; };
+		1151351119668DD4009B659C /* magazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineView.h; sourceTree = "<group>"; };
+		1151351219668DD4009B659C /* magazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineView.m; sourceTree = "<group>"; };
 		116D68F91964EB52001E359A /* bookstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116D68FC1964EB52001E359A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116D68FE1964EB52001E359A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,10 +95,8 @@
 			children = (
 				116D69141964EB52001E359A /* homeViewController.h */,
 				116D69151964EB52001E359A /* homeViewController.m */,
-				11431028196BA73300929D8C /* magazineView.h */,
-				11431029196BA73300929D8C /* magazineView.m */,
-				1143102B196BA82200929D8C /* cellMagazineView.h */,
-				1143102C196BA82200929D8C /* cellMagazineView.m */,
+				1151351119668DD4009B659C /* magazineView.h */,
+				1151351219668DD4009B659C /* magazineView.m */,
 			);
 			name = funcPages;
 			sourceTree = "<group>";
@@ -291,12 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1143102D196BA82200929D8C /* cellMagazineView.m in Sources */,
 				116D69091964EB52001E359A /* main.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
-				1143102A196BA73300929D8C /* magazineView.m in Sources */,
+				1151351319668DD4009B659C /* magazineView.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
