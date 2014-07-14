@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		11043C4A19653A0500BBF737 /* menuUtama.m in Sources */ = {isa = PBXBuildFile; fileRef = 11043C4919653A0500BBF737 /* menuUtama.m */; };
-		1151351319668DD4009B659C /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1151351219668DD4009B659C /* magazineView.m */; };
 		116D68FD1964EB52001E359A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FC1964EB52001E359A /* Foundation.framework */; };
 		116D68FF1964EB52001E359A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FE1964EB52001E359A /* CoreGraphics.framework */; };
 		116D69011964EB52001E359A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D69001964EB52001E359A /* UIKit.framework */; };
@@ -25,6 +24,8 @@
 		116D69291964EB52001E359A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116D69271964EB52001E359A /* InfoPlist.strings */; };
 		116D692B1964EB52001E359A /* bookstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D692A1964EB52001E359A /* bookstoreTests.m */; };
 		116D69361964F016001E359A /* navigasi.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D69351964F016001E359A /* navigasi.m */; };
+		11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4EB5B1973855D006FF0C5 /* magazineView.m */; };
+		11A4EB62197391FA006FF0C5 /* magazineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4EB61197391FA006FF0C5 /* magazineCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,6 @@
 /* Begin PBXFileReference section */
 		11043C4819653A0500BBF737 /* menuUtama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuUtama.h; sourceTree = "<group>"; };
 		11043C4919653A0500BBF737 /* menuUtama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuUtama.m; sourceTree = "<group>"; };
-		1151351119668DD4009B659C /* magazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineView.h; sourceTree = "<group>"; };
-		1151351219668DD4009B659C /* magazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineView.m; sourceTree = "<group>"; };
 		116D68F91964EB52001E359A /* bookstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116D68FC1964EB52001E359A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116D68FE1964EB52001E359A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,6 +63,10 @@
 		116D692A1964EB52001E359A /* bookstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookstoreTests.m; sourceTree = "<group>"; };
 		116D69341964F016001E359A /* navigasi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigasi.h; sourceTree = "<group>"; };
 		116D69351964F016001E359A /* navigasi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigasi.m; sourceTree = "<group>"; };
+		11A4EB5A1973855D006FF0C5 /* magazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineView.h; sourceTree = "<group>"; };
+		11A4EB5B1973855D006FF0C5 /* magazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineView.m; sourceTree = "<group>"; };
+		11A4EB60197391FA006FF0C5 /* magazineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineCell.h; sourceTree = "<group>"; };
+		11A4EB61197391FA006FF0C5 /* magazineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +98,10 @@
 			children = (
 				116D69141964EB52001E359A /* homeViewController.h */,
 				116D69151964EB52001E359A /* homeViewController.m */,
-				1151351119668DD4009B659C /* magazineView.h */,
-				1151351219668DD4009B659C /* magazineView.m */,
+				11A4EB5A1973855D006FF0C5 /* magazineView.h */,
+				11A4EB5B1973855D006FF0C5 /* magazineView.m */,
+				11A4EB60197391FA006FF0C5 /* magazineCell.h */,
+				11A4EB61197391FA006FF0C5 /* magazineCell.m */,
 			);
 			name = funcPages;
 			sourceTree = "<group>";
@@ -286,11 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A4EB62197391FA006FF0C5 /* magazineCell.m in Sources */,
 				116D69091964EB52001E359A /* main.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
-				1151351319668DD4009B659C /* magazineView.m in Sources */,
+				11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
