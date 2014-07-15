@@ -7,6 +7,7 @@
 //
 
 #import "magazineView.h"
+#import "detailMagazine.h"
 
 @interface magazineView ()
 
@@ -15,6 +16,7 @@
 @implementation magazineView{
     NSMutableArray *penerbit;
     NSMutableArray *judul;
+    NSInteger selectedjudul;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -104,10 +106,22 @@
     cell.penerbitMagazine.text = [NSString stringWithFormat:@"%@",[penerbit objectAtIndex:indexPath.row]];
     cell.judulMagazine.text = [NSString stringWithFormat:@"%@", [judul objectAtIndex:indexPath.row]];
     
-    
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UICollectionViewCell *cell = (UICollectionViewCell *)sender;
+    NSIndexPath *indexPath = [self.collectionView indexPathForCell:cell];
+    
+    detailMagazine *detailMagaz = (detailMagazine *)segue.destinationViewController;
+    detailMagaz.detailJudul = [judul objectAtIndex:indexPath.row];
     
 }
+
+
+
+
 
 
 

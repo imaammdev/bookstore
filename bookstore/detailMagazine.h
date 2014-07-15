@@ -10,6 +10,11 @@
 
 @interface detailMagazine : UIViewController
 
+@property (strong, nonatomic) NSString *detailJudul;
+
+@property (weak, nonatomic) IBOutlet UILabel *authorMag;
+
+
 
 
 @end

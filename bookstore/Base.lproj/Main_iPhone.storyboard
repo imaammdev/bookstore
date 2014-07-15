@@ -196,7 +196,7 @@
                                             <outlet property="hargaMagazine" destination="fCb-nq-oAT" id="gCc-N1-Gxg"/>
                                             <outlet property="judulMagazine" destination="5w5-vX-nL6" id="yfe-z8-3ic"/>
                                             <outlet property="penerbitMagazine" destination="WbN-wy-7ov" id="CvA-bh-ItR"/>
-                                            <segue destination="Lav-Vq-UWe" kind="push" id="fCT-Yq-AUB"/>
+                                            <segue destination="Lav-Vq-UWe" kind="push" identifier="DetailMag" id="xbN-l2-Ll2"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -226,12 +226,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bH3-2w-Ruc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232" y="399"/>
+            <point key="canvasLocation" x="1240" y="399"/>
         </scene>
         <!--Detail Magazine - Detail Magazine-->
         <scene sceneID="l9a-LV-M2P">
             <objects>
-                <viewController id="Lav-Vq-UWe" customClass="detailMagazine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailMagazine" id="Lav-Vq-UWe" customClass="detailMagazine" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Oo-88-IkU"/>
                         <viewControllerLayoutGuide type="bottom" id="tbW-ZC-ZoD"/>
@@ -317,10 +317,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail Magazine" id="S9J-18-BXa"/>
+                    <connections>
+                        <outlet property="authorMag" destination="OTr-en-7RE" id="CJ2-rq-nSk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zFe-0v-E4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1749" y="399"/>
+            <point key="canvasLocation" x="1759" y="399"/>
         </scene>
         <!--Home View Controller - Bookstore-->
         <scene sceneID="pRw-nt-gz9">
