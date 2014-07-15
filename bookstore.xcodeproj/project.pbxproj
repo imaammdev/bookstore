@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11043C4A19653A0500BBF737 /* menuUtama.m in Sources */ = {isa = PBXBuildFile; fileRef = 11043C4919653A0500BBF737 /* menuUtama.m */; };
+		110B595D1974C83E00C7162A /* detailMagazine.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B595C1974C83E00C7162A /* detailMagazine.m */; };
 		116D68FD1964EB52001E359A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FC1964EB52001E359A /* Foundation.framework */; };
 		116D68FF1964EB52001E359A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FE1964EB52001E359A /* CoreGraphics.framework */; };
 		116D69011964EB52001E359A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D69001964EB52001E359A /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		11043C4819653A0500BBF737 /* menuUtama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuUtama.h; sourceTree = "<group>"; };
 		11043C4919653A0500BBF737 /* menuUtama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuUtama.m; sourceTree = "<group>"; };
+		110B595B1974C83E00C7162A /* detailMagazine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailMagazine.h; sourceTree = "<group>"; };
+		110B595C1974C83E00C7162A /* detailMagazine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailMagazine.m; sourceTree = "<group>"; };
 		116D68F91964EB52001E359A /* bookstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116D68FC1964EB52001E359A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116D68FE1964EB52001E359A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,6 +105,8 @@
 				11A4EB5B1973855D006FF0C5 /* magazineView.m */,
 				11A4EB60197391FA006FF0C5 /* magazineCell.h */,
 				11A4EB61197391FA006FF0C5 /* magazineCell.m */,
+				110B595B1974C83E00C7162A /* detailMagazine.h */,
+				110B595C1974C83E00C7162A /* detailMagazine.m */,
 			);
 			name = funcPages;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			files = (
 				11A4EB62197391FA006FF0C5 /* magazineCell.m in Sources */,
 				116D69091964EB52001E359A /* main.m in Sources */,
+				110B595D1974C83E00C7162A /* detailMagazine.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
