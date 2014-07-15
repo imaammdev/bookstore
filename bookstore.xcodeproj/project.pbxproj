@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		11043C4A19653A0500BBF737 /* menuUtama.m in Sources */ = {isa = PBXBuildFile; fileRef = 11043C4919653A0500BBF737 /* menuUtama.m */; };
 		110B595D1974C83E00C7162A /* detailMagazine.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B595C1974C83E00C7162A /* detailMagazine.m */; };
+		110B596E197512B500C7162A /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B5960197512B500C7162A /* AMSlideMenuContentSegue.m */; };
+		110B596F197512B500C7162A /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B5962197512B500C7162A /* AMSlideMenuLeftMenuSegue.m */; };
+		110B5970197512B500C7162A /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B5964197512B500C7162A /* AMSlideMenuLeftTableViewController.m */; };
+		110B5971197512B500C7162A /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B5966197512B500C7162A /* AMSlideMenuMainViewController.m */; };
+		110B5972197512B500C7162A /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B5969197512B500C7162A /* AMSlideMenuRightMenuSegue.m */; };
+		110B5973197512B500C7162A /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B596B197512B500C7162A /* AMSlideMenuRightTableViewController.m */; };
+		110B5974197512B500C7162A /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B596D197512B500C7162A /* UIViewController+AMSlideMenu.m */; };
+		110B59771975137A00C7162A /* magazineV.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B59761975137A00C7162A /* magazineV.m */; };
 		116D68FD1964EB52001E359A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FC1964EB52001E359A /* Foundation.framework */; };
 		116D68FF1964EB52001E359A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FE1964EB52001E359A /* CoreGraphics.framework */; };
 		116D69011964EB52001E359A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D69001964EB52001E359A /* UIKit.framework */; };
@@ -44,6 +52,23 @@
 		11043C4919653A0500BBF737 /* menuUtama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuUtama.m; sourceTree = "<group>"; };
 		110B595B1974C83E00C7162A /* detailMagazine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailMagazine.h; sourceTree = "<group>"; };
 		110B595C1974C83E00C7162A /* detailMagazine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailMagazine.m; sourceTree = "<group>"; };
+		110B595F197512B500C7162A /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
+		110B5960197512B500C7162A /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
+		110B5961197512B500C7162A /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
+		110B5962197512B500C7162A /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
+		110B5963197512B500C7162A /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
+		110B5964197512B500C7162A /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
+		110B5965197512B500C7162A /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
+		110B5966197512B500C7162A /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
+		110B5967197512B500C7162A /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuProtocols.h; sourceTree = "<group>"; };
+		110B5968197512B500C7162A /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
+		110B5969197512B500C7162A /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
+		110B596A197512B500C7162A /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
+		110B596B197512B500C7162A /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
+		110B596C197512B500C7162A /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
+		110B596D197512B500C7162A /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
+		110B59751975137A00C7162A /* magazineV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = magazineV.h; path = "../../../../../../Downloads/AMSlideMenu-master/AMSlideMenu/magazineV.h"; sourceTree = "<group>"; };
+		110B59761975137A00C7162A /* magazineV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = magazineV.m; path = "../../../../../../Downloads/AMSlideMenu-master/AMSlideMenu/magazineV.m"; sourceTree = "<group>"; };
 		116D68F91964EB52001E359A /* bookstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116D68FC1964EB52001E359A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116D68FE1964EB52001E359A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,9 +121,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110B595E197512B500C7162A /* AMSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				110B595F197512B500C7162A /* AMSlideMenuContentSegue.h */,
+				110B5960197512B500C7162A /* AMSlideMenuContentSegue.m */,
+				110B5961197512B500C7162A /* AMSlideMenuLeftMenuSegue.h */,
+				110B5962197512B500C7162A /* AMSlideMenuLeftMenuSegue.m */,
+				110B5963197512B500C7162A /* AMSlideMenuLeftTableViewController.h */,
+				110B5964197512B500C7162A /* AMSlideMenuLeftTableViewController.m */,
+				110B5965197512B500C7162A /* AMSlideMenuMainViewController.h */,
+				110B5966197512B500C7162A /* AMSlideMenuMainViewController.m */,
+				110B5967197512B500C7162A /* AMSlideMenuProtocols.h */,
+				110B5968197512B500C7162A /* AMSlideMenuRightMenuSegue.h */,
+				110B5969197512B500C7162A /* AMSlideMenuRightMenuSegue.m */,
+				110B596A197512B500C7162A /* AMSlideMenuRightTableViewController.h */,
+				110B596B197512B500C7162A /* AMSlideMenuRightTableViewController.m */,
+				110B596C197512B500C7162A /* UIViewController+AMSlideMenu.h */,
+				110B596D197512B500C7162A /* UIViewController+AMSlideMenu.m */,
+			);
+			name = AMSlideMenu;
+			path = "../../../../../../Downloads/AMSlideMenu-master/AMSlideMenu";
+			sourceTree = "<group>";
+		};
 		1151350C1966782A009B659C /* funcPages */ = {
 			isa = PBXGroup;
 			children = (
+				110B59751975137A00C7162A /* magazineV.h */,
+				110B59761975137A00C7162A /* magazineV.m */,
 				116D69141964EB52001E359A /* homeViewController.h */,
 				116D69151964EB52001E359A /* homeViewController.m */,
 				11A4EB5A1973855D006FF0C5 /* magazineView.h */,
@@ -156,6 +206,7 @@
 		116D69021964EB52001E359A /* bookstore */ = {
 			isa = PBXGroup;
 			children = (
+				110B595E197512B500C7162A /* AMSlideMenu */,
 				116D690B1964EB52001E359A /* homeAppDelegate.h */,
 				116D690C1964EB52001E359A /* homeAppDelegate.m */,
 				116D690E1964EB52001E359A /* Main_iPhone.storyboard */,
@@ -296,13 +347,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110B596F197512B500C7162A /* AMSlideMenuLeftMenuSegue.m in Sources */,
 				11A4EB62197391FA006FF0C5 /* magazineCell.m in Sources */,
 				116D69091964EB52001E359A /* main.m in Sources */,
+				110B5974197512B500C7162A /* UIViewController+AMSlideMenu.m in Sources */,
 				110B595D1974C83E00C7162A /* detailMagazine.m in Sources */,
+				110B596E197512B500C7162A /* AMSlideMenuContentSegue.m in Sources */,
+				110B5972197512B500C7162A /* AMSlideMenuRightMenuSegue.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
+				110B59771975137A00C7162A /* magazineV.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
+				110B5970197512B500C7162A /* AMSlideMenuLeftTableViewController.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
 				11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */,
+				110B5973197512B500C7162A /* AMSlideMenuRightTableViewController.m in Sources */,
+				110B5971197512B500C7162A /* AMSlideMenuMainViewController.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
