@@ -6,11 +6,10 @@
 //  Copyright (c) 2014 Lab. All rights reserved.
 //
 
-
+#import <UIKit/UIKit.h>
 #import "magazineCell.h"
-#import "AMSlideMenuMainViewController.h"
 
-@interface magazineView : AMSlideMenuMainViewController <UICollectionViewDataSource , UICollectionViewDelegate>
+@interface magazineView : UIViewController <UICollectionViewDataSource , UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
