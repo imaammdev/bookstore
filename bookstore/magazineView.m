@@ -54,6 +54,7 @@
     [penerbit addObject:@"Majalah Geny"];
     [penerbit addObject:@"Majalah Satu"];
     [penerbit addObject:@"Majalah Dua"];
+    [penerbit addObject:@"coba"];
     
     judul = [[NSMutableArray alloc] init];
     [judul addObject:@"Jodoh Prabowo"];
@@ -63,6 +64,7 @@
     [judul addObject:@"Saya Bukan"];
     [judul addObject:@"Ini Judul"];
     [judul addObject:@"ini magazine"];
+    [judul addObject:@"ini coba"];
     
     
     
@@ -116,6 +118,8 @@
     
     detailMagazine *detailMagaz = (detailMagazine *)segue.destinationViewController;
     detailMagaz.detailJudul = [judul objectAtIndex:indexPath.row];
+    
+    
     
 }
 
