@@ -144,6 +144,9 @@
 =======
 				116D69141964EB52001E359A /* homeViewController.h */,
 				116D69151964EB52001E359A /* homeViewController.m */,
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 				11A4EB5B1973855D006FF0C5 /* magazineView.m */,
 				11A4EB5A1973855D006FF0C5 /* magazineView.h */,

@@ -23,9 +23,13 @@
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIColor colorWithRed:211.0f/255.0f green:236.0f/255.0f blue:246.0f/255.0f alpha:1], NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:87.0f/255.0f green:169.0f/255.0f blue:224.0f/255.0f alpha:1], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 
 
+=======
+  
+>>>>>>> FETCH_HEAD
 =======
   
 >>>>>>> FETCH_HEAD

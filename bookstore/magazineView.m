@@ -32,6 +32,7 @@
     
     // Do any additional setup after loading the view.
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     
     UIButton * menuNav= [UIButton buttonWithType:UIButtonTypeCustom];
@@ -55,6 +56,10 @@
     UIBarButtonItem *folderButton  = [[UIBarButtonItem alloc] initWithCustomView:folderNav];
     self.navigationItem.rightBarButtonItem = folderButton;
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+=======
+   
+   
+>>>>>>> FETCH_HEAD
 =======
    
    
