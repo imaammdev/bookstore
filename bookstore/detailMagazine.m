@@ -38,9 +38,6 @@
     UIBarButtonItem *barButton  = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = barButton;
     
-    self.authorMag.text = self.detailJudul;
-    
-    
     
 
     

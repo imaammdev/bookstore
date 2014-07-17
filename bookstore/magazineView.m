@@ -7,8 +7,6 @@
 //
 
 #import "magazineView.h"
-#import "detailMagazine.h"
-#import "SWRevealViewController.h"
 
 @interface magazineView ()
 
@@ -17,37 +15,24 @@
 @implementation magazineView{
     NSMutableArray *penerbit;
     NSMutableArray *judul;
-    NSInteger selectedjudul;
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
-    
-    
-    UIButton * menuNav= [UIButton buttonWithType:UIButtonTypeCustom];
-    
-    [menuNav setFrame:CGRectMake(1, 0, 20, 20)];
-    [menuNav setImage:[UIImage imageNamed:@"ic_menu_alt.png"]forState:UIControlStateNormal];
-    [menuNav addTarget:self.revealViewController
-                action:@selector(revealToggle:)
-      forControlEvents:UIControlEventTouchUpInside];
-    
-    UIBarButtonItem *menuButton  = [[UIBarButtonItem alloc] initWithCustomView:menuNav];
-    self.navigationItem.leftBarButtonItem = menuButton;
-    
-    UIButton * folderNav= [UIButton buttonWithType:UIButtonTypeCustom];
-    
-    [folderNav setFrame:CGRectMake(1, 0, 25, 25)];
-    [folderNav setImage:[UIImage imageNamed:@"ic_folder_alt.png"]forState:UIControlStateNormal];
-    [folderNav addTarget:self.revealViewController action:@selector(revealToggle:) forControlEvents:UIControlEventTouchUpInside];
-    
-    UIBarButtonItem *folderButton  = [[UIBarButtonItem alloc] initWithCustomView:folderNav];
-    self.navigationItem.rightBarButtonItem = folderButton;
-    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+   
+   
     
     
     penerbit = [[NSMutableArray alloc] init];
@@ -73,7 +58,6 @@
     
     
 }
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -112,24 +96,10 @@
     cell.penerbitMagazine.text = [NSString stringWithFormat:@"%@",[penerbit objectAtIndex:indexPath.row]];
     cell.judulMagazine.text = [NSString stringWithFormat:@"%@", [judul objectAtIndex:indexPath.row]];
     
+    
     return cell;
-}
-
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    UICollectionViewCell *cell = (UICollectionViewCell *)sender;
-    NSIndexPath *indexPath = [self.collectionView indexPathForCell:cell];
-    
-    detailMagazine *detailMagaz = (detailMagazine *)segue.destinationViewController;
-    detailMagaz.detailJudul = [judul objectAtIndex:indexPath.row];
-    
-    
     
 }
-
-
-
-
 
 
 
