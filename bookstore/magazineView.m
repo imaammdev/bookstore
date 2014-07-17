@@ -20,21 +20,13 @@
     NSInteger selectedjudul;
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
-    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
     
     UIButton * menuNav= [UIButton buttonWithType:UIButtonTypeCustom];
     
@@ -51,12 +43,12 @@
     
     [folderNav setFrame:CGRectMake(1, 0, 25, 25)];
     [folderNav setImage:[UIImage imageNamed:@"ic_folder_alt.png"]forState:UIControlStateNormal];
-    [folderNav addTarget:self.revealViewController
-                  action:@selector(revealToggle:)
-        forControlEvents:UIControlEventTouchUpInside];
+    [folderNav addTarget:self.revealViewController action:@selector(revealToggle:) forControlEvents:UIControlEventTouchUpInside];
     
     UIBarButtonItem *folderButton  = [[UIBarButtonItem alloc] initWithCustomView:folderNav];
     self.navigationItem.rightBarButtonItem = folderButton;
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
     
     penerbit = [[NSMutableArray alloc] init];
     [penerbit addObject:@"Majalah Detik"];

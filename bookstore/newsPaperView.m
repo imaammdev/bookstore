@@ -20,21 +20,10 @@
 }
 
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-    // Do any additional setup after loading the view.
     
     
     UIButton * menuNav= [UIButton buttonWithType:UIButtonTypeCustom];
@@ -58,6 +47,7 @@
     
     UIBarButtonItem *folderButton  = [[UIBarButtonItem alloc] initWithCustomView:folderNav];
     self.navigationItem.rightBarButtonItem = folderButton;
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
     edisi = [[NSMutableArray alloc] init];
     [edisi addObject:@"kamis"];
