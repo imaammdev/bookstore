@@ -17,27 +17,27 @@
     
     
     
-    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-    UITabBar *tabBar = tabBarController.tabBar;
+    //UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    //UITabBar *tabBar = tabBarController.tabBar;
     
     // repeat for every tab, but increment the index each time
     
-    UITabBarItem *firstTab = [tabBar.items objectAtIndex:0];
-    firstTab.image = [[UIImage imageNamed:@"ic_book.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    firstTab.selectedImage = [[UIImage imageNamed:@"ic_book_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+   // UITabBarItem *firstTab = [tabBar.items objectAtIndex:0];
+    //firstTab.image = [[UIImage imageNamed:@"ic_book.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    //firstTab.selectedImage = [[UIImage imageNamed:@"ic_book_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    //
+    //UITabBarItem *secondTab = [tabBar.items objectAtIndex:1];
+   // secondTab.image = [[UIImage imageNamed:@"ic_magazine.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+   // secondTab.selectedImage = [[UIImage imageNamed:@"ic_magazine_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
-    UITabBarItem *secondTab = [tabBar.items objectAtIndex:1];
-    secondTab.image = [[UIImage imageNamed:@"ic_magazine.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    secondTab.selectedImage = [[UIImage imageNamed:@"ic_magazine_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    
-    UITabBarItem *thirdTab = [tabBar.items objectAtIndex:2];
-    thirdTab.image = [[UIImage imageNamed:@"ic_newspaper.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    thirdTab.selectedImage = [[UIImage imageNamed:@"ic_newspaper_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+   // UITabBarItem *thirdTab = [tabBar.items objectAtIndex:2];
+   // thirdTab.image = [[UIImage imageNamed:@"ic_newspaper.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+   // thirdTab.selectedImage = [[UIImage imageNamed:@"ic_newspaper_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
 
-    UITabBarItem *fourthTab = [tabBar.items objectAtIndex:3];
-    fourthTab.image = [[UIImage imageNamed:@"ic_mark.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    fourthTab.selectedImage = [[UIImage imageNamed:@"ic_mark_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+   // UITabBarItem *fourthTab = [tabBar.items objectAtIndex:3];
+    ////fourthTab.image = [[UIImage imageNamed:@"ic_mark.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+   // fourthTab.selectedImage = [[UIImage imageNamed:@"ic_mark_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     return YES;
 }

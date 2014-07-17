@@ -9,6 +9,7 @@
 #import "newsPaperView.h"
 
 #import "detailNewsPaper.h"
+#import "SWRevealViewController.h"
 
 @interface newsPaperView ()
 
@@ -32,7 +33,32 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     // Do any additional setup after loading the view.
+    
+    
+    UIButton * menuNav= [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [menuNav setFrame:CGRectMake(1, 0, 20, 20)];
+    [menuNav setImage:[UIImage imageNamed:@"ic_menu_alt.png"]forState:UIControlStateNormal];
+    [menuNav addTarget:self.revealViewController
+                action:@selector(revealToggle:)
+      forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *menuButton  = [[UIBarButtonItem alloc] initWithCustomView:menuNav];
+    self.navigationItem.leftBarButtonItem = menuButton;
+    
+    UIButton * folderNav= [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [folderNav setFrame:CGRectMake(1, 0, 25, 25)];
+    [folderNav setImage:[UIImage imageNamed:@"ic_folder_alt.png"]forState:UIControlStateNormal];
+    [folderNav addTarget:self.revealViewController
+                  action:@selector(revealToggle:)
+        forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *folderButton  = [[UIBarButtonItem alloc] initWithCustomView:folderNav];
+    self.navigationItem.rightBarButtonItem = folderButton;
+    
     edisi = [[NSMutableArray alloc] init];
     [edisi addObject:@"kamis"];
     [edisi addObject:@"jumat"];

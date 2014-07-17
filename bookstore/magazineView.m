@@ -8,6 +8,7 @@
 
 #import "magazineView.h"
 #import "detailMagazine.h"
+#import "SWRevealViewController.h"
 
 @interface magazineView ()
 
@@ -33,18 +34,29 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
-    UIImageView *iconMenu = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_menu_alt.png"]];
-    iconMenu.frame = CGRectMake(1, 0, 20, 20);
+    UIButton * menuNav= [UIButton buttonWithType:UIButtonTypeCustom];
     
-    UIImageView *iconLibrary = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_folder_alt.png"]];
-    iconLibrary.frame = CGRectMake(1, 0, 25, 25);
+    [menuNav setFrame:CGRectMake(1, 0, 20, 20)];
+    [menuNav setImage:[UIImage imageNamed:@"ic_menu_alt.png"]forState:UIControlStateNormal];
+    [menuNav addTarget:self.revealViewController
+                action:@selector(revealToggle:)
+      forControlEvents:UIControlEventTouchUpInside];
     
-    UIBarButtonItem *listMenu = [[UIBarButtonItem alloc] initWithCustomView:iconMenu];
-    UIBarButtonItem *libraryButton = [[UIBarButtonItem alloc] initWithCustomView:iconLibrary];
+    UIBarButtonItem *menuButton  = [[UIBarButtonItem alloc] initWithCustomView:menuNav];
+    self.navigationItem.leftBarButtonItem = menuButton;
     
-    self.navigationItem.leftBarButtonItem = listMenu;
-    self.navigationItem.rightBarButtonItem = libraryButton;
+    UIButton * folderNav= [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [folderNav setFrame:CGRectMake(1, 0, 25, 25)];
+    [folderNav setImage:[UIImage imageNamed:@"ic_folder_alt.png"]forState:UIControlStateNormal];
+    [folderNav addTarget:self.revealViewController
+                  action:@selector(revealToggle:)
+        forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *folderButton  = [[UIBarButtonItem alloc] initWithCustomView:folderNav];
+    self.navigationItem.rightBarButtonItem = folderButton;
     
     penerbit = [[NSMutableArray alloc] init];
     [penerbit addObject:@"Majalah Detik"];
