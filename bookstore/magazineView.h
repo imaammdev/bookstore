@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "magazineCell.h"
-#import "header.h"
 
 @interface magazineView : UIViewController <UICollectionViewDataSource , UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;

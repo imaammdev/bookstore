@@ -118,23 +118,9 @@
     
     detailMagazine *detailMagaz = (detailMagazine *)segue.destinationViewController;
     detailMagaz.detailJudul = [judul objectAtIndex:indexPath.row];
-
     
-}
-
-
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
-{
-    UICollectionReusableView *reusableview = nil;
     
-    if (kind == UICollectionElementKindSectionHeader) {
-        header *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headerMag" forIndexPath:indexPath];
-        
-        reusableview = headerView;
-    }
     
-       
-    return reusableview;
 }
 
 
