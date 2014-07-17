@@ -14,9 +14,6 @@
 {
     // Override point for customization after application launch.
     
-    
-    
-    
     //UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
     //UITabBar *tabBar = tabBarController.tabBar;
     

@@ -22,7 +22,6 @@
 		116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D690C1964EB52001E359A /* homeAppDelegate.m */; };
 		116D69101964EB52001E359A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116D690E1964EB52001E359A /* Main_iPhone.storyboard */; };
 		116D69131964EB52001E359A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116D69111964EB52001E359A /* Main_iPad.storyboard */; };
-		116D69161964EB52001E359A /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D69151964EB52001E359A /* homeViewController.m */; };
 		116D69181964EB52001E359A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116D69171964EB52001E359A /* Images.xcassets */; };
 		116D691F1964EB52001E359A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D691E1964EB52001E359A /* XCTest.framework */; };
 		116D69201964EB52001E359A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D68FC1964EB52001E359A /* Foundation.framework */; };
@@ -72,8 +71,6 @@
 		116D690C1964EB52001E359A /* homeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeAppDelegate.m; sourceTree = "<group>"; };
 		116D690F1964EB52001E359A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		116D69121964EB52001E359A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		116D69141964EB52001E359A /* homeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
-		116D69151964EB52001E359A /* homeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
 		116D69171964EB52001E359A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		116D691D1964EB52001E359A /* bookstoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookstoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		116D691E1964EB52001E359A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -130,8 +127,6 @@
 		1151350C1966782A009B659C /* funcPages */ = {
 			isa = PBXGroup;
 			children = (
-				116D69141964EB52001E359A /* homeViewController.h */,
-				116D69151964EB52001E359A /* homeViewController.m */,
 				11A4EB5A1973855D006FF0C5 /* magazineView.h */,
 				11A4EB5B1973855D006FF0C5 /* magazineView.m */,
 				110B595B1974C83E00C7162A /* detailMagazine.h */,
@@ -353,7 +348,6 @@
 				110A52631976423A00BCF8C8 /* newsPaperView.m in Sources */,
 				110A52661976431800BCF8C8 /* newsPaperCell.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
-				116D69161964EB52001E359A /* homeViewController.m in Sources */,
 				11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);

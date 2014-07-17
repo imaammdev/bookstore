@@ -14,14 +14,7 @@
 
 @implementation menuUtama
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+
 
 - (void)viewDidLoad
 {
@@ -29,6 +22,8 @@
     [[UITabBar appearance] setTintColor:[UIColor colorWithRed:211.0f/255.0f green:236.0f/255.0f blue:246.0f/255.0f alpha:1]];
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIColor colorWithRed:211.0f/255.0f green:236.0f/255.0f blue:246.0f/255.0f alpha:1], NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:87.0f/255.0f green:169.0f/255.0f blue:224.0f/255.0f alpha:1], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+    
+
 
 }
 

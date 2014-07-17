@@ -36,6 +36,7 @@
                 action:@selector(revealToggle:)
       forControlEvents:UIControlEventTouchUpInside];
     
+    
     UIBarButtonItem *menuButton  = [[UIBarButtonItem alloc] initWithCustomView:menuNav];
     self.navigationItem.leftBarButtonItem = menuButton;
     
