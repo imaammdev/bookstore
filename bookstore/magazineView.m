@@ -7,6 +7,8 @@
 //
 
 #import "magazineView.h"
+#import "detailMagazine.h"
+#import "SWRevealViewController.h"
 
 @interface magazineView ()
 
@@ -15,24 +17,15 @@
 @implementation magazineView{
     NSMutableArray *penerbit;
     NSMutableArray *judul;
+    NSInteger selectedjudul;
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
-<<<<<<< HEAD
-<<<<<<< HEAD
     
     
     UIButton * menuNav= [UIButton buttonWithType:UIButtonTypeCustom];
@@ -42,7 +35,6 @@
     [menuNav addTarget:self.revealViewController
                 action:@selector(revealToggle:)
       forControlEvents:UIControlEventTouchUpInside];
-    
     
     UIBarButtonItem *menuButton  = [[UIBarButtonItem alloc] initWithCustomView:menuNav];
     self.navigationItem.leftBarButtonItem = menuButton;
@@ -56,14 +48,6 @@
     UIBarButtonItem *folderButton  = [[UIBarButtonItem alloc] initWithCustomView:folderNav];
     self.navigationItem.rightBarButtonItem = folderButton;
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-=======
-   
-   
->>>>>>> FETCH_HEAD
-=======
-   
-   
->>>>>>> FETCH_HEAD
     
     
     penerbit = [[NSMutableArray alloc] init];
@@ -89,6 +73,7 @@
     
     
 }
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -127,10 +112,24 @@
     cell.penerbitMagazine.text = [NSString stringWithFormat:@"%@",[penerbit objectAtIndex:indexPath.row]];
     cell.judulMagazine.text = [NSString stringWithFormat:@"%@", [judul objectAtIndex:indexPath.row]];
     
-    
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UICollectionViewCell *cell = (UICollectionViewCell *)sender;
+    NSIndexPath *indexPath = [self.collectionView indexPathForCell:cell];
+    
+    detailMagazine *detailMagaz = (detailMagazine *)segue.destinationViewController;
+    detailMagaz.detailJudul = [judul objectAtIndex:indexPath.row];
+    
+    
     
 }
+
+
+
+
 
 
 

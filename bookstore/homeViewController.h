@@ -1,5 +1,5 @@
 //
-//  menuUtama.h
+//  homeViewController.h
 //  bookstore
 //
 //  Created by Herman Tolle on 7/3/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+@interface homeViewController : UIViewController
 
-@interface menuUtama : UITabBarController
 
 @end

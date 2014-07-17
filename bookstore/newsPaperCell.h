@@ -1,5 +1,5 @@
 //
-//  bookCell.h
+//  newsPaperCell.h
 //  bookstore
 //
 //  Created by Herman Tolle on 7/16/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface bookCell : UICollectionViewCell
+@interface newsPaperCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UILabel *edisi;
 
 @end

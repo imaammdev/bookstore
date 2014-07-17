@@ -1,14 +1,14 @@
 //
-//  magazineCell.m
+//  newsPaperCell.m
 //  bookstore
 //
-//  Created by Herman Tolle on 7/14/14.
+//  Created by Herman Tolle on 7/16/14.
 //  Copyright (c) 2014 Lab. All rights reserved.
 //
 
-#import "magazineCell.h"
+#import "newsPaperCell.h"
 
-@implementation magazineCell
+@implementation newsPaperCell
 
 - (id)initWithFrame:(CGRect)frame
 {
