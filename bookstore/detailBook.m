@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Lab. All rights reserved.
 //
 
-#import "detailMagazine.h"
+#import "detailBook.h"
 
-@interface detailMagazine ()
+@interface detailBook ()
 
 @end
 
-@implementation detailMagazine
+@implementation detailBook
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,11 +38,10 @@
     UIBarButtonItem *barButton  = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.leftBarButtonItem = barButton;
     
-    self.authorMag.text = self.detailJudul;
+    self.authorBook.text = self.detailJudul;
     
     
     
-
     
 }
 
@@ -58,14 +57,14 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

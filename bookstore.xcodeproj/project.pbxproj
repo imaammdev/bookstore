@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		11043C4A19653A0500BBF737 /* menuUtama.m in Sources */ = {isa = PBXBuildFile; fileRef = 11043C4919653A0500BBF737 /* menuUtama.m */; };
-		110A525D1976376C00BCF8C8 /* bookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 110A525C1976376C00BCF8C8 /* bookCell.m */; };
-		110A52601976394700BCF8C8 /* bookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 110A525F1976394700BCF8C8 /* bookView.m */; };
+		11068E61197CC46B0018977B /* bookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11068E5E197CC46B0018977B /* bookView.m */; };
+		11068E62197CC46B0018977B /* detailBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 11068E60197CC46B0018977B /* detailBook.m */; };
 		110A52631976423A00BCF8C8 /* newsPaperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 110A52621976423A00BCF8C8 /* newsPaperView.m */; };
 		110A52661976431800BCF8C8 /* newsPaperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 110A52651976431800BCF8C8 /* newsPaperCell.m */; };
 		110A5269197646E500BCF8C8 /* detailNewsPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 110A5268197646E500BCF8C8 /* detailNewsPaper.m */; };
@@ -33,6 +33,7 @@
 		1198AA4519777BEC0033D239 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198AA4419777BEC0033D239 /* SWRevealViewController.m */; };
 		11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4EB5B1973855D006FF0C5 /* magazineView.m */; };
 		11A4EB62197391FA006FF0C5 /* magazineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4EB61197391FA006FF0C5 /* magazineCell.m */; };
+		BED311611978EB7800C2B6B5 /* bookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BED311601978EB7800C2B6B5 /* bookCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +49,10 @@
 /* Begin PBXFileReference section */
 		11043C4819653A0500BBF737 /* menuUtama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuUtama.h; sourceTree = "<group>"; };
 		11043C4919653A0500BBF737 /* menuUtama.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuUtama.m; sourceTree = "<group>"; };
-		110A525B1976376C00BCF8C8 /* bookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookCell.h; sourceTree = "<group>"; };
-		110A525C1976376C00BCF8C8 /* bookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookCell.m; sourceTree = "<group>"; };
-		110A525E1976394700BCF8C8 /* bookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookView.h; sourceTree = "<group>"; };
-		110A525F1976394700BCF8C8 /* bookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookView.m; sourceTree = "<group>"; };
+		11068E5D197CC46B0018977B /* bookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookView.h; sourceTree = "<group>"; };
+		11068E5E197CC46B0018977B /* bookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookView.m; sourceTree = "<group>"; };
+		11068E5F197CC46B0018977B /* detailBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailBook.h; sourceTree = "<group>"; };
+		11068E60197CC46B0018977B /* detailBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailBook.m; sourceTree = "<group>"; };
 		110A52611976423A00BCF8C8 /* newsPaperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsPaperView.h; sourceTree = "<group>"; };
 		110A52621976423A00BCF8C8 /* newsPaperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsPaperView.m; sourceTree = "<group>"; };
 		110A52641976431800BCF8C8 /* newsPaperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsPaperCell.h; sourceTree = "<group>"; };
@@ -88,6 +89,8 @@
 		11A4EB5B1973855D006FF0C5 /* magazineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineView.m; sourceTree = "<group>"; };
 		11A4EB60197391FA006FF0C5 /* magazineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineCell.h; sourceTree = "<group>"; };
 		11A4EB61197391FA006FF0C5 /* magazineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magazineCell.m; sourceTree = "<group>"; };
+		BED3115F1978EB7800C2B6B5 /* bookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookCell.h; sourceTree = "<group>"; };
+		BED311601978EB7800C2B6B5 /* bookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +122,10 @@
 			children = (
 				110A52641976431800BCF8C8 /* newsPaperCell.h */,
 				110A52651976431800BCF8C8 /* newsPaperCell.m */,
-				110A525B1976376C00BCF8C8 /* bookCell.h */,
-				110A525C1976376C00BCF8C8 /* bookCell.m */,
 				11A4EB60197391FA006FF0C5 /* magazineCell.h */,
 				11A4EB61197391FA006FF0C5 /* magazineCell.m */,
+				BED3115F1978EB7800C2B6B5 /* bookCell.h */,
+				BED311601978EB7800C2B6B5 /* bookCell.m */,
 			);
 			name = cell;
 			sourceTree = "<group>";
@@ -130,14 +133,16 @@
 		1151350C1966782A009B659C /* funcPages */ = {
 			isa = PBXGroup;
 			children = (
+				11068E5D197CC46B0018977B /* bookView.h */,
+				11068E5E197CC46B0018977B /* bookView.m */,
+				11068E5F197CC46B0018977B /* detailBook.h */,
+				11068E60197CC46B0018977B /* detailBook.m */,
 				116D69141964EB52001E359A /* homeViewController.h */,
 				116D69151964EB52001E359A /* homeViewController.m */,
 				11A4EB5A1973855D006FF0C5 /* magazineView.h */,
 				11A4EB5B1973855D006FF0C5 /* magazineView.m */,
 				110B595B1974C83E00C7162A /* detailMagazine.h */,
 				110B595C1974C83E00C7162A /* detailMagazine.m */,
-				110A525E1976394700BCF8C8 /* bookView.h */,
-				110A525F1976394700BCF8C8 /* bookView.m */,
 				110A52611976423A00BCF8C8 /* newsPaperView.h */,
 				110A52621976423A00BCF8C8 /* newsPaperView.m */,
 				110A5267197646E500BCF8C8 /* detailNewsPaper.h */,
@@ -342,18 +347,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110A525D1976376C00BCF8C8 /* bookCell.m in Sources */,
 				11A4EB62197391FA006FF0C5 /* magazineCell.m in Sources */,
 				110A5269197646E500BCF8C8 /* detailNewsPaper.m in Sources */,
 				116D69091964EB52001E359A /* main.m in Sources */,
 				110B595D1974C83E00C7162A /* detailMagazine.m in Sources */,
 				11043C4A19653A0500BBF737 /* menuUtama.m in Sources */,
-				110A52601976394700BCF8C8 /* bookView.m in Sources */,
 				1198AA4519777BEC0033D239 /* SWRevealViewController.m in Sources */,
 				110A52631976423A00BCF8C8 /* newsPaperView.m in Sources */,
+				11068E62197CC46B0018977B /* detailBook.m in Sources */,
 				110A52661976431800BCF8C8 /* newsPaperCell.m in Sources */,
 				116D690D1964EB52001E359A /* homeAppDelegate.m in Sources */,
+				BED311611978EB7800C2B6B5 /* bookCell.m in Sources */,
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
+				11068E61197CC46B0018977B /* bookView.m in Sources */,
 				11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);

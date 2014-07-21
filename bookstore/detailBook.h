@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface detailMagazine : UIViewController
+@interface detailBook : UIViewController
 
 @property (strong, nonatomic) NSString *detailJudul;
 
-@property (weak, nonatomic) IBOutlet UILabel *authorMag;
-
+@property (weak, nonatomic) IBOutlet UILabel *authorBook;
 
 
 

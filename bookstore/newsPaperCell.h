@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface newsPaperCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UILabel *edisi;
+@property (weak, nonatomic) IBOutlet UIImageView *coverNewsPaper;
+
+@property (weak, nonatomic) IBOutlet UILabel *penerbitNewsPaper;
+@property (weak, nonatomic) IBOutlet UILabel *edisiNewsPaper;
+@property (weak, nonatomic) IBOutlet UILabel *judulNewsPaper;
+@property (weak, nonatomic) IBOutlet UILabel *hargaNewsPaper;
 
 @end
