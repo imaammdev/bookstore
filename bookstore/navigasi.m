@@ -27,7 +27,6 @@
 {
     [super viewDidLoad];
     
-    
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"header_ios.png"] forBarMetrics:UIBarMetricsDefault];
 
     

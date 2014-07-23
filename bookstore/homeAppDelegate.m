@@ -12,9 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
     // Override point for customization after application launch.
-    
-    
     
     
     //UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
@@ -38,6 +37,8 @@
    // UITabBarItem *fourthTab = [tabBar.items objectAtIndex:3];
     ////fourthTab.image = [[UIImage imageNamed:@"ic_mark.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
    // fourthTab.selectedImage = [[UIImage imageNamed:@"ic_mark_alt.png"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+
     
     return YES;
 }
