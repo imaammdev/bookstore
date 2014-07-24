@@ -30,6 +30,7 @@
 		116D69291964EB52001E359A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116D69271964EB52001E359A /* InfoPlist.strings */; };
 		116D692B1964EB52001E359A /* bookstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D692A1964EB52001E359A /* bookstoreTests.m */; };
 		116D69361964F016001E359A /* navigasi.m in Sources */ = {isa = PBXBuildFile; fileRef = 116D69351964F016001E359A /* navigasi.m */; };
+		11715F78197F761E00375A46 /* sidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 11715F77197F761E00375A46 /* sidebar.m */; };
 		1198AA4519777BEC0033D239 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198AA4419777BEC0033D239 /* SWRevealViewController.m */; };
 		11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4EB5B1973855D006FF0C5 /* magazineView.m */; };
 		11A4EB62197391FA006FF0C5 /* magazineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4EB61197391FA006FF0C5 /* magazineCell.m */; };
@@ -83,6 +84,8 @@
 		116D692A1964EB52001E359A /* bookstoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookstoreTests.m; sourceTree = "<group>"; };
 		116D69341964F016001E359A /* navigasi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigasi.h; sourceTree = "<group>"; };
 		116D69351964F016001E359A /* navigasi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigasi.m; sourceTree = "<group>"; };
+		11715F76197F761E00375A46 /* sidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sidebar.h; sourceTree = "<group>"; };
+		11715F77197F761E00375A46 /* sidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sidebar.m; sourceTree = "<group>"; };
 		1198AA4319777BEC0033D239 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		1198AA4419777BEC0033D239 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		11A4EB5A1973855D006FF0C5 /* magazineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magazineView.h; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				116D69351964F016001E359A /* navigasi.m */,
 				11043C4819653A0500BBF737 /* menuUtama.h */,
 				11043C4919653A0500BBF737 /* menuUtama.m */,
+				11715F76197F761E00375A46 /* sidebar.h */,
+				11715F77197F761E00375A46 /* sidebar.m */,
 			);
 			name = funcMenu;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 				116D69161964EB52001E359A /* homeViewController.m in Sources */,
 				11068E61197CC46B0018977B /* bookView.m in Sources */,
 				11A4EB5C1973855D006FF0C5 /* magazineView.m in Sources */,
+				11715F78197F761E00375A46 /* sidebar.m in Sources */,
 				116D69361964F016001E359A /* navigasi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

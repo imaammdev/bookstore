@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface detailBook : UIViewController
+@interface detailBook : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (strong, nonatomic) NSString *detailJudul;
 
 @property (weak, nonatomic) IBOutlet UILabel *authorBook;
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 
 @end
