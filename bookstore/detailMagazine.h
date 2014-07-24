@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface detailMagazine : UIViewController
+@interface detailMagazine : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (strong, nonatomic) NSString *detailJudul;
 
 @property (weak, nonatomic) IBOutlet UILabel *authorMag;
 
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 
 @end
